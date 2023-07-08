@@ -144,7 +144,7 @@ body {
 }
 
 #hero{
-  background-image: url("./img/hero4.png");
+  background-image: url("/img/hero4.png");
   height: 90vh;
   width: 100%;
   background-position: top 25% right 0;
@@ -165,7 +165,7 @@ body {
 }
 
 #hero button {
-  background-image: url(./img/button.png);
+  background-image: url(/img/button.png);
   background-color: transparent ;
   color: #088178;
   border: 0;
@@ -418,7 +418,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url("img/banner/b1.jpg");
+  background-image: url("/img/banner/b1.jpg");
   background-position: 20% 30%;
 }
 
@@ -511,4 +511,99 @@ footer .install img{
 .copyright{
   width: 100%;
   text-align: center;
+}
+
+/* SHOP PAGE */
+
+#shop_page_header{
+  background-image: url("/img/banner/b1.jpg");
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+#shop_page_header h2{
+  color: #fff;
+}
+#shop_page_header p{
+  color: #d1e8f2;
+}
+
+#pagination {
+  text-align: center;
+
+}
+#pagination a {
+  text-decoration: none;
+  background-color: #088178;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+#pagination a i {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+/* Single Product */
+#prodetails {
+  display: flex;
+  margin-top: 20px;
+  
+}
+
+#prodetails .single-pro-img{
+  width: 40%;
+  margin-right: 50px;
+  
+}
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+  width: 50%;
+  padding-top:30px;
+}
+#prodetails .single-pro-details h4{
+  padding : 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+  font-size : 26px; 
+  color: #088178;
+}
+
+#prodetails .single-pro-details select{
+  display: block;
+  padding :5px 10px;
+  margin-bottom: 10px;
+}
+#prodetails .single-pro-details input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+#prodetails .single-pro-details input:focus{
+  outline: none;
+}
+
+#prodetails .single-pro-details button{
+  background: #088178;
+  color: #fff;
+}
+#prodetails .single-pro-details span{
+  line-height: 25px;
+
 }
